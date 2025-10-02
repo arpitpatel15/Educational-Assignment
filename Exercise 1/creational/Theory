@@ -1,0 +1,21 @@
+1. Factory Design Pattern
+  -The Factory Pattern is a creational pattern.
+  -It provides a way to create objects without exposing the creation logic to the client.
+  -The client requests an object by type, and the factory decides which subclass instance to return.
+  -Real-life example: Ordering food in a restaurant. You ask for "Pizza" or "Burger," and the kitchen prepares the right dish.
+
+Structure:
+  -Product (Interface/Abstract class): Defines the common type for objects created.
+  -Concrete Product: Implements the product interface.
+  -Factory: Contains logic to decide which concrete product to create.
+
+2. Prototype Design Pattern
+  -The Prototype Pattern is a creational pattern.
+  -It is used when object creation is expensive or complex.
+  -Instead of creating new instances, objects are cloned from an existing prototype.
+  -Real-life example: A car company creates a prototype model and then clones it to produce multiple cars.
+
+Structure:
+  -Prototype Interface: Declares a cloning method.
+  -Concrete Prototype: Implements the cloning method.
+  -Client: Uses the prototype to clone objects instead of creating new ones.
