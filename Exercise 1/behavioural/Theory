@@ -1,0 +1,21 @@
+1. Observer Design Pattern
+ -The Observer Pattern is a behavioral pattern.
+ -Defines a one-to-many dependency between objects.
+ -When one object (Subject) changes state, all its dependents (Observers) are automatically notified.
+ -Real-life example: Subscribing to a YouTube channel. When the channel uploads a video, all subscribers are notified.
+
+Structure :
+ -Subject (Publisher): Maintains a list of observers and notifies them.
+ -Observer (Subscriber): Defines an update method that gets called when the subject changes.
+
+
+2. State Design Pattern
+ -The State Pattern is a behavioral pattern.
+ -Allows an object to change its behavior when its internal state changes.
+ -Replaces complex if-else or switch statements with state-specific classes.
+ -Real-life example: A traffic light changes its behavior depending on whether it is Red, Yellow, or Green.
+
+Structure :
+ -Context: Maintains the current state and delegates behavior to it.
+ -State (Interface): Defines common behavior for all states.
+ -Concrete States: Implement behavior specific to each state.
