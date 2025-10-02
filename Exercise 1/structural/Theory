@@ -1,0 +1,22 @@
+1. Bridge Design Pattern
+  -The Bridge Pattern is a structural pattern.
+  -It decouples abstraction from its implementation so that both can vary independently.
+  -It uses composition instead of inheritance to connect abstraction and implementation.
+  -Real-life example: A remote control (abstraction) can work with different devices like TV or Radio (implementations).
+
+Structure:
+  -Abstraction: Defines the high-level control interface.
+  -Refined Abstraction: Extended version of abstraction.
+  -Implementor: Defines the interface for implementation classes.
+  -Concrete Implementor: Provides the actual implementation.
+
+2. Adapter Design Pattern
+  -The Adapter Pattern is a structural pattern.
+  -It allows incompatible interfaces to work together by acting as a translator.
+  -It works as a wrapper that converts one interface into another.
+  -Real-life example: A power adapter lets a device with a USB-C port work with a power socket using a 3-pin plug.
+
+Structure:
+  -Target: Defines the expected interface used by clients.
+  -Adaptee: The existing class with an incompatible interface.
+  -Adapter: Wraps the Adaptee and makes it compatible with the Target interface.
